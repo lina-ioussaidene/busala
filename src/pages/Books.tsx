@@ -4,27 +4,33 @@ export default function Books() {
   const books = [
     {
       id: 1,
-      title: 'دليل التاهيل الاسري ',
+      title: 'دليل التأهيل الأسري ',
       desc: 'دليلك العملي لبناء أسرة مستقرة ورسالية.',
       image: 'images/livre famille.png',
     },
     {
       id: 2,
-      title: 'دليل التاهيل الحضاري للمراهق ',
+      title: 'دليل التأهيل الحضاري للمراهق ',
       desc: 'مرجعك لتوجيه المراهقين نحو الهوية الرسالية.',
       image: 'images/livre ado.png',
     },
     {
       id: 3,
-      title: 'دليل التاهيل الحضاري لمرحله الطفوله',
-      desc: 'أدواتك التربوية لمرحلة الطفولة المبكرة.',
+      title: 'دليل التأهيل الحضاري لمرحلة الطفولة ',
+      desc: 'أدواتك التربوية لمرحلة الطفولة.',
       image: 'images/livre enfant.png',
     },
     {
       id: 4,
-      title: 'دليل التاهيل الحضاري للمعلمين',
+      title: 'دليل التأهيل الحضاري للمعلمين',
       desc: 'منهجيتك لتأهيل المعلمين الرساليين.',
       image: 'images/livre prof.png',
+    },
+    {
+      id: 5,
+      title: 'دليل التأهيل الحضاري للموهوبين ',
+      desc: 'منهجية التأهيل الحضاري للمعلم الرسالي',
+      image: 'images/livre intello.png',
     },
   ];
 
@@ -37,9 +43,9 @@ export default function Books() {
     },
     {
       id: 2,
-      title: 'مداخلة دليلة قيراد',
+      title: 'من منظور السننية الشاملة',
       desc: 'تحليل معمق لمفاهيم التزكية والتوجيه.',
-      pdfUrl: 'articlepdf/مداخلة دليلة قيراد (2).pdf'
+      pdfUrl: 'articlepdf/من منظور السننية الشاملة .pdf'
     },
     {
       id: 3,
@@ -52,6 +58,12 @@ export default function Books() {
       title: 'منظومة الطيب برغوث السننية وفاعليتها في التأصيل لفقه النهضة الحضارية',
       desc: 'الوعي السني كنموذج للنهضة الحضارية المعاصرة.',
       pdfUrl: 'articlepdf/منظومة-الطيب-برغوث-السننية-وفاعليتها-في-التأصيل-لفقه-النهضة-الحضارية-الوعي-السنني-...ational-renaissance.---sunni-consciousness-as-a-modle- - ٢٠٢٦-٠٥-٠٢T٠٨٣٩٢٠.٩٦٩.pdf'
+    },
+    {
+      id: 5,
+      title: 'بين الحقيقة و الوهم أ.ليلى جوادي ',
+      desc: 'رابط خارجي لمقال متاح عبر الإنترنت.',
+      linkUrl: 'https://arrabiaa.net/%D8%A8%D9%8A'
     },
   ];
 
@@ -86,7 +98,8 @@ export default function Books() {
                 <div className="p-6 flex-1 flex flex-col items-center text-center">
                   <h3 className="text-xl font-bold text-gray-900 mb-2">{book.title}</h3>
                   <p className="text-gray-500 text-sm leading-relaxed mb-6 flex-1">{book.desc}</p>
-                  
+
+                  <div className="mb-3 text-rose-700 font-bold">قريبا</div>
                   <a 
                     href={whatsappUrl}
                     target="_blank"
@@ -116,12 +129,14 @@ export default function Books() {
                 <p className="text-gray-600 mb-6 leading-relaxed">{article.desc}</p>
                 
                 <a 
-                  href={article.pdfUrl}
-                  download
+                  href={article.linkUrl ?? article.pdfUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  download={!article.linkUrl}
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition text-sm"
                 >
                   <ShoppingBag size={16} />
-                  تحميل PDF
+                  <span>{article.linkUrl ? 'فتح الرابط' : 'تحميل PDF'}</span>
                 </a>
               </div>
             ))}

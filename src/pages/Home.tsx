@@ -13,8 +13,14 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <div className="text-center mb-12">
-            <h3 className="text-5xl md:text-7xl font-black text-primary-800 mb-4">مركز بوصلة</h3>
-            <h4 className="text-3xl md:text-4xl font-bold text-primary-800 mb-2">للبناء الرسالي</h4>
+            <h3 className="text-5xl md:text-7xl font-black text-primary-800 mb-4 flex justify-center items-end gap-3">
+              <span>مركز</span>
+              <span className="text-3xl md:text-4xl font-semibold">للبناء</span>
+            </h3>
+            <h3 className="text-5xl md:text-7xl font-black text-primary-800 mb-2 flex justify-center items-end gap-3">
+              <span>بوصلة</span>
+              <span className="text-xl md:text-2xl font-semibold">الرسالي</span>
+            </h3>
             <div className="text-center mb-8 max-w-4xl mx-auto">
               <h5 className="text-lg md:text-xl text-gray-600 font-light mb-6">من التأهيل إلى التمكين</h5>
               <p className="text-base md:text-lg text-gray-600 leading-relaxed font-normal" style={{fontFamily: 'Noto Sans Arabic, sans-serif'}}>
@@ -31,7 +37,8 @@ export default function Home() {
               إصدارات المركز
             </Link>
             <Link to="/programs" className="w-full sm:w-auto px-8 py-4 bg-primary-800 text-white rounded-lg font-bold text-lg hover:bg-primary-900 transition-all shadow-lg shadow-primary-900/10">
-              مشاريع
+              
+مشاريعنا   
             </Link>
             <a href="#contact" className="w-full sm:w-auto px-8 py-4 bg-white text-gray-800 border border-gray-300 rounded-lg font-bold text-lg hover:bg-gray-50 transition-all">
               تواصل معنا
