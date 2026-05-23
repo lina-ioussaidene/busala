@@ -41,39 +41,51 @@ export default function Announcements() {
   const pastActivities = [
     {
       id: 1 ,
-      image: '/images/1777578827044.jpg'
+      image: '/images/1778874441158.jpg'
     },
     {
       id: 2,
-      image: '/images/1777578827055.jpg'
+      image: 'public/images/1778874441168.jpg'
     },
     {
       id: 3,
-      image: '/images/1777578827061.jpg'
+      image: 'public/images/1778874441178.jpg'
     },
     {
       id: 4,
-      image: '/images/1777578827066.jpg'
+      image: 'public/images/1778874441189.jpg'
     },
     {
       id: 5,
-      image: '/images/1777578827070.jpg'
+      image: 'public/images/1778874441215.jpg'
     },
     {
       id: 6, 
-      image: '/images/1777578827082.jpg'
+      image: 'public/images/1778874441224.jpg'
     },
     {
       id: 7,
-      image: '/images/1777578827088.jpg'
+      image: 'public/images/1778874441232.jpg'
     },
     {
       id: 8,
-      image: '/images/1777578827092.jpg'
+      image: 'public/images/1778874441239.jpg'
     },
     {
       id: 9,
-      image: '/images/1777578827112.jpg'
+      image: 'public/images/1778874441246.jpg'
+    },
+    {
+      id: 10,
+      image: 'public/images/1778874441255.jpg'
+    },
+    {
+      id: 11,
+      image: 'public/images/1778874441264.jpg'
+    },
+    {
+      id: 12,
+      image: 'public/images/1778874441272.jpg'
     },
   ];
 

@@ -61,9 +61,15 @@ export default function Books() {
     },
     {
       id: 5,
-      title: 'بين الحقيقة و الوهم أ.ليلى جوادي ',
+      title: 'ثلاثية “المعرفة – الثقافة – التربية” وفاعليتها في تحقيق النهضة الحضارية',
+      desc: 'دراسة حول دور المعرفة والثقافة والتربية في تحقيق النهضة الحضارية.',
+      pdfUrl: 'articlepdf/ثلاثية “المعرفة – الثقافة – التربية” وفاعليتها في تحقيق النهضة الحضارية – أ قيراد دليلة – جامعة تلمسان.pdf'
+    },
+    {
+      id: 6,
+      title:'بين يدي معركة طوفان الأقصى _مقاربات عقدية سننية',
       desc: 'رابط خارجي لمقال متاح عبر الإنترنت.',
-      linkUrl: 'https://arrabiaa.net/%D8%A8%D9%8A'
+      linkUrl: 'https://arrabiaa.net/%D8%A8%D9%8A%D9%86-%D9%8A%D8%AF%D9%8A-%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B7%D9%88%D9%81%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89-_%D9%85%D9%82%D8%A7%D8%B1%D8%A8%D8%A7%D8%AA-%D8%B9%D9%82%D8%AF/'
     },
   ];
 
@@ -73,7 +79,7 @@ export default function Books() {
     <div className="pt-28 pb-24 min-h-screen bg-beige-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-3xl md:text-5xl font-bold text-primary-800 mb-6">مكتبة الإصدارات</h1>
+          <h1 className="text-3xl md:text-5xl font-bold text-primary-800 mb-6">إصدارات المركز</h1>
           <div className="w-24 h-1 bg-primary-300 mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             مجموعة من الكتب والاصدارات التي تساهم في بناء الوعي والمعرفة.

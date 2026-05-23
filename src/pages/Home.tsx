@@ -13,18 +13,18 @@ export default function Home() {
         
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center">
           <div className="text-center mb-12">
-            <h3 className="text-5xl md:text-7xl font-black text-primary-800 mb-4 flex justify-center items-end gap-3">
+            <h3 className="text-5xl md:text-7xl font-black text-primary-800 mb-4 flex justify-center items-center gap-3">
               <span>مركز</span>
-              <span className="text-3xl md:text-4xl font-semibold">للبناء</span>
+              <span className="text-5xl md:text-7xl font-black">بوصلة</span>
             </h3>
-            <h3 className="text-5xl md:text-7xl font-black text-primary-800 mb-2 flex justify-center items-end gap-3">
-              <span>بوصلة</span>
+            <h3 className="text-5xl md:text-7xl font-black text-primary-800 mb-2 flex justify-center items-center gap-3">
+              <span className="text-3xl md:text-2xl font-semibold">للبناء</span>
               <span className="text-xl md:text-2xl font-semibold">الرسالي</span>
             </h3>
             <div className="text-center mb-8 max-w-4xl mx-auto">
               <h5 className="text-lg md:text-xl text-gray-600 font-light mb-6">من التأهيل إلى التمكين</h5>
               <p className="text-base md:text-lg text-gray-600 leading-relaxed font-normal" style={{fontFamily: 'Noto Sans Arabic, sans-serif'}}>
-               فضاء معرفي ثقافي تربوي يرافقك في رحلة الوعي والإرشاد لبناء إنسانك وضبط بوصلة حياتك نحو مسار الرسالية وتحقيق الفاعلية الحضارية
+               مركز معرفي ثقافي تربوي يرافقك في رحلة الوعي والإرشاد لبناء إنسانك وضبط بوصلة حياتك نحو مسار الرسالية وتحقيق الفاعلية الحضارية
               </p>
             </div>
           </div>
@@ -193,8 +193,8 @@ export default function Home() {
                { title: 'روّاد أعمال ومبادرون يصنعون فرصهم', icon: <Target size={32} /> },
                { title: 'مقبلون على الزواج يخطّطون لبناء حياة مستقرة', icon: <House size={32} /> },
                { title: 'أفراد شغوفون بتطوير ذواتهم والارتقاء بمهاراتهم', icon: <Award size={32} /> },
-               { title: 'أسر تسعى إلى التماسك، الوعي، وأدوار أسرية رسالية', icon: <Compass size={32} /> },
-               { title: 'مدمنون وأشخاص في طريق التعافي يسعون للدعم والتغيير', icon: <Eye size={32} /> },
+               { title: 'أسر تبحث إلى التماسك الأسري وتفعيل أدوارها الوظيفية الرسالية', icon: <Compass size={32} /> },
+               { title: 'مدمنون وأشخاص في طريق التعافي يبحثون عن الدعم والتغيير', icon: <Eye size={32} /> },
              ].map((item, idx) => (
                <div key={idx} className="flex flex-col items-center justify-center p-8 bg-white rounded-2xl border border-beige-100 hover:border-primary-200 transition">
                  <div className="text-primary-700 mb-4">{item.icon}</div>
