@@ -45,47 +45,47 @@ export default function Announcements() {
     },
     {
       id: 2,
-      image: 'public/images/1778874441168.jpg'
+      image: '/images/1778874441168.jpg'
     },
     {
       id: 3,
-      image: 'public/images/1778874441178.jpg'
+      image: '/images/1778874441178.jpg'
     },
     {
       id: 4,
-      image: 'public/images/1778874441189.jpg'
+      image: '/images/1778874441189.jpg'
     },
     {
       id: 5,
-      image: 'public/images/1778874441215.jpg'
+      image: '/images/1778874441215.jpg'
     },
     {
       id: 6, 
-      image: 'public/images/1778874441224.jpg'
+      image: '/images/1778874441224.jpg'
     },
     {
       id: 7,
-      image: 'public/images/1778874441232.jpg'
+      image: '/images/1778874441232.jpg'
     },
     {
       id: 8,
-      image: 'public/images/1778874441239.jpg'
+      image: '/images/1778874441239.jpg'
     },
     {
       id: 9,
-      image: 'public/images/1778874441246.jpg'
+      image: '/images/1778874441246.jpg'
     },
     {
       id: 10,
-      image: 'public/images/1778874441255.jpg'
+      image: '/images/1778874441255.jpg'
     },
     {
       id: 11,
-      image: 'public/images/1778874441264.jpg'
+      image: '/images/1778874441264.jpg'
     },
     {
       id: 12,
-      image: 'public/images/1778874441272.jpg'
+      image: '/images/1778874441272.jpg'
     },
   ];
 
@@ -184,7 +184,7 @@ export default function Announcements() {
                   <div
                     key={activity.id}
                     ref={(el) => (slideRefs.current[index] = el)}
-                    className="snap-start shrink-0 min-w-full sm:min-w-[50%] lg:min-w-[33.333%]"
+                    className="snap-start shrink-0 w-full sm:w-[calc(50%-12px)] lg:w-[calc(33.333%-16px)]"
                   >
                     <div className="overflow-hidden rounded-xl shadow-lg bg-white h-72">
                       <img
