@@ -217,7 +217,7 @@ export default function Home() {
           <div className="bg-beige-50 p-8 md:p-12 rounded-3xl">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
               <a 
-                href="https://wa.me/966501234567?text=السلام عليكم، أود الاستفسار عن خدمات مركز بوصلة"
+                href="https://wa.me/qr/YZAU7SOYGS3LD1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center justify-center p-6 bg-primary-800 rounded-xl border border-primary-800 hover:bg-white hover:border-primary-800 hover:shadow-lg transition-all group"
@@ -231,7 +231,7 @@ export default function Home() {
               </a>
 
               <a 
-                href="https://t.me/+s1QzcQBLaUMwYjE0"
+                href="https://t.me/busalacentre"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center justify-center p-6 bg-white rounded-xl border border-gray-200 hover:bg-primary-800 hover:border-primary-800 hover:shadow-lg transition-all group"
@@ -245,7 +245,7 @@ export default function Home() {
               </a>
 
               <a 
-                href="https://instagram.com/bousla_center"
+                href="https://www.instagram.com/busala_centre?utm_source=qr&igsh=ZGY2dzQxMWM3Zmhz"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center justify-center p-6 bg-primary-800 rounded-xl border border-primary-800 hover:bg-white hover:border-primary-800 hover:shadow-lg transition-all group"
@@ -259,7 +259,7 @@ export default function Home() {
               </a>
 
               <a 
-                href="https://facebook.com/bousla_center"
+                href="https://www.facebook.com/profile.php?id=61589626752270"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center justify-center p-6 bg-white rounded-xl border border-gray-200 hover:bg-primary-800 hover:border-primary-800 hover:shadow-lg transition-all group"
@@ -273,7 +273,7 @@ export default function Home() {
               </a>
 
               <a 
-                href="https://tiktok.com/@bousla_center"
+                href="https://www.tiktok.com/@manada738?_r=1&_d=dhhe6h4bhbgl4f&sec_uid=MS4wLjABAAAA06Zj3voYvAeBnPDzLS0OifxiG9C8c5N6lpd2TATKCuSxYKXaZDSrVQC0KA3kOVXx&share_author_id=7392972606993286150&sharer_language=ar&source=h5_m&u_code=ef82ld00acmk4f&timestamp=1778964746&user_id=7392972606993286150&sec_user_id=MS4wLjABAAAA06Zj3voYvAeBnPDzLS0OifxiG9C8c5N6lpd2TATKCuSxYKXaZDSrVQC0KA3kOVXx&item_author_type=1&utm_source=copy&utm_campaign=client_share&utm_medium=android&share_iid=7637164212515309329&share_link_id=f5362550-5bb9-4a3e-b4d6-4aad1e6f8c51&share_app_id=1233&ugbiz_name=ACCOUNT&ug_btm=b8727%2Cb7360&social_share_type=5&enable_checksum=1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center justify-center p-6 bg-primary-800 rounded-xl border border-primary-800 hover:bg-white hover:border-primary-800 hover:shadow-lg transition-all group"
@@ -287,7 +287,7 @@ export default function Home() {
               </a>
 
               <a 
-                href="https://youtube.com/@bousla_center"
+                href="https://www.youtube.com/@info.busalacentre"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center justify-center p-6 bg-white rounded-xl border border-gray-200 hover:bg-primary-800 hover:border-primary-800 hover:shadow-lg transition-all group"

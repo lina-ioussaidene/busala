@@ -14,15 +14,14 @@ export default function Footer() {
             </Link>
             
             <div className="flex space-x-4 space-x-reverse pt-2">
-              <a href="#" className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-primary-800 hover:border-primary-800 transition">
+              <a href="https://www.facebook.com/profile.php?id=61589626752270" className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-primary-800 hover:border-primary-800 transition">
                 <Facebook size={18} />
               </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-primary-800 hover:border-primary-800 transition">
-                <Twitter size={18} />
-              </a>
-              <a href="#" className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-primary-800 hover:border-primary-800 transition">
+              
+              <a href="https://www.instagram.com/busala_centre?utm_source=qr&igsh=ZGY2dzQxMWM3Zmhz" className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-primary-800 hover:border-primary-800 transition">
                 <Instagram size={18} />
               </a>
+              
             </div>
           </div>
 
@@ -44,15 +43,15 @@ export default function Footer() {
             <ul className="space-y-4 font-medium">
               <li className="flex items-start gap-3">
                 <MapPin className="text-primary-800 flex-shrink-0 mt-0.5" size={18} />
-                <span className="text-gray-500">المركز الرئيسي، شارع العلم والمعرفة، المدينة</span>
+                <span className="text-gray-500">الجزائر</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-primary-800 flex-shrink-0" size={18} />
-                <span className="text-gray-500" dir="ltr">+966 50 123 4567</span>
+                <span className="text-gray-500" dir="ltr">+213 793 11 26 71</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-primary-800 flex-shrink-0" size={18} />
-                <span className="text-gray-500">info@bawsala.com</span>
+                <span className="text-gray-500">busalacentre.info@gmail.com</span>
               </li>
             </ul>
           </div>

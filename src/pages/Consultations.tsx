@@ -9,7 +9,7 @@ export default function Consultations() {
     <div className="pt-28 pb-24 min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h1 className="text-3xl md:text-5xl font-bold text-primary-800 mb-6"> الاستشارات</h1>
+          <h1 className="text-3xl md:text-5xl font-bold text-primary-800 mb-6"> الإستشارات</h1>
           <div className="w-24 h-1 bg-primary-300 mx-auto rounded-full mb-8"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
             تشعر أحيانًا أن الضغوط تتراكم من كل جهة؟
@@ -26,52 +26,29 @@ export default function Consultations() {
             <div className="w-16 h-16 bg-white mx-auto rounded-lg flex items-center justify-center text-primary-800 mb-4 shadow-sm">
               <HeartHandshake size={32} />
             </div>
-            <h3 className="text-xl font-bold text-gray-900">أسرية</h3>
+            <h3 className="text-xl font-bold text-gray-900">إستشارات أسرية</h3>
           </div>
           <div className="bg-white p-6 rounded-xl text-center border border-gray-200 shadow-sm hover:shadow-md transition">
             <div className="w-16 h-16 bg-primary-800/10 mx-auto rounded-lg flex items-center justify-center text-primary-800 mb-4">
               <Baby size={32} />
             </div>
-            <h3 className="text-xl font-bold text-gray-900">تربوية</h3>
+            <h3 className="text-xl font-bold text-gray-900">إستشارات تربوية</h3>
           </div>
           <div className="bg-beige-100 p-6 rounded-xl text-center border border-gray-100 hover:shadow-md transition">
             <div className="w-16 h-16 bg-white mx-auto rounded-lg flex items-center justify-center text-primary-800 mb-4 shadow-sm">
               <Users size={32} />
             </div>
-            <h3 className="text-xl font-bold text-gray-900">اجتماعية</h3>
+            <h3 className="text-xl font-bold text-gray-900">إستشارات إجتماعية</h3>
           </div>
           <div className="bg-white p-6 rounded-xl text-center border border-gray-200 shadow-sm hover:shadow-md transition">
              <div className="w-16 h-16 bg-primary-800/10 mx-auto rounded-lg flex items-center justify-center text-primary-800 mb-4">
                <BookOpen size={32} />
              </div>
-            <h3 className="text-xl font-bold text-gray-900">دينية</h3>
+            <h3 className="text-xl font-bold text-gray-900">إستشارات دينية</h3>
           </div>
         </div>
 
-        <div className="max-w-4xl mx-auto mb-16">
-          <div className="bg-beige-50 p-8 rounded-xl border border-beige-100">
-            <h3 className="text-xl font-bold text-primary-800 mb-6 text-center">تشمل هذه الخدمات:</h3>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-primary-800 rounded-full"></div>
-                <span className="text-gray-700">الاستشارات الأسرية</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-primary-800 rounded-full"></div>
-                <span className="text-gray-700">الاستشارات التربوية والنفسية</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-primary-800 rounded-full"></div>
-                <span className="text-gray-700">الاستشارات الاجتماعية</span>
-              </div>
-              <div className="flex items-center gap-3">
-                <div className="w-2 h-2 bg-primary-800 rounded-full"></div>
-                <span className="text-gray-700">الاستشارات الدينية</span>
-              </div>
-            </div>
-          </div>
-        </div>
-
+        
         <div className="max-w-2xl mx-auto bg-white rounded-xl p-10 text-center border border-gray-200 shadow-sm relative overflow-hidden">
           {/* Decorative Pattern */}
           <div className="absolute -top-24 -right-24 w-48 h-48 bg-primary-800/5 rounded-full blur-3xl pointer-events-none"></div>
