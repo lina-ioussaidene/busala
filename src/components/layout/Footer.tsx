@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
           <div className="space-y-4 flex flex-col items-start md:items-start">
-            <Link to="/" className="text-2xl font-bold text-primary-800 flex flex-row-reverse items-center gap-2">
+            <Link to="/" className="text-2xl font-bold text-primary-800 flex flex-row items-center gap-2">
             <span>مركز بوصلة</span>
             <span className="font-light text-gray-400 text-lg tracking-wide">للبناء الرسالي</span>
             </Link>
