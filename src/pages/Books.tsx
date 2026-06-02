@@ -67,7 +67,7 @@ export default function Books() {
     },
   ];
 
-  const whatsappNumber = '966501234567';
+  const whatsappNumber = '+213 793 11 26 71';
 
   return (
     <div className="pt-28 pb-24 min-h-screen bg-beige-50">
