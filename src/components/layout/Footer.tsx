@@ -20,7 +20,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li><Link to="/#about" className="text-gray-500 hover:text-primary-800 transition font-medium">من نحن</Link></li>
               <li><Link to="/announcements" className="text-gray-500 hover:text-primary-800 transition font-medium">الإعلانات</Link></li>
-              <li><Link to="/programs" className="text-gray-500 hover:text-primary-800 transition font-medium">برامجنا</Link></li>
+              <li><Link to="/programs" className="text-gray-500 hover:text-primary-800 transition font-medium">مشاريعنا</Link></li>
               <li><Link to="/consultations" className="text-gray-500 hover:text-primary-800 transition font-medium">الاستشارات</Link></li>
               <li><Link to="/books" className="text-gray-500 hover:text-primary-800 transition font-medium">الكتب والإصدارات</Link></li>
             </ul>
