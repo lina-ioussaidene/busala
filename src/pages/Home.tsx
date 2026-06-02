@@ -19,7 +19,7 @@ export default function Home() {
             </h3>
             <h3 className="text-5xl md:text-7xl font-black text-primary-800 mb-2 flex justify-center items-center gap-3">
               <span className="text-3xl md:text-2xl font-semibold">للبناء</span>
-              <span className="text-xl md:text-2xl font-semibold">الرسالي</span>
+              <span className="text-3xl md:text-2xl font-semibold">الرسالي</span>
             </h3>
             <div className="text-center mb-8 max-w-4xl mx-auto">
               <h5 className="text-lg md:text-xl text-gray-600 font-light mb-6">من التأهيل إلى التمكين</h5>
@@ -189,12 +189,12 @@ export default function Home() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
              {[
-               { title: 'شباب طموح وطلبة يسعون لصناعة مستقبلهم', icon: <Users size={32} /> },
-               { title: 'روّاد أعمال ومبادرون يصنعون فرصهم', icon: <Target size={32} /> },
-               { title: 'مقبلون على الزواج يخطّطون لبناء حياة مستقرة', icon: <House size={32} /> },
-               { title: 'أفراد شغوفون بتطوير ذواتهم والارتقاء بمهاراتهم', icon: <Award size={32} /> },
-               { title: 'أسر تبحث إلى التماسك الأسري وتفعيل أدوارها الوظيفية الرسالية', icon: <Compass size={32} /> },
-               { title: 'مدمنون وأشخاص في طريق التعافي يبحثون عن الدعم والتغيير', icon: <Eye size={32} /> },
+               { title: 'الشباب الطموح وطلبة العلم', icon: <Users size={32} /> },
+               { title: 'رواد الأعمال ', icon: <Target size={32} /> },
+               { title: 'المقبلين على الزواج', icon: <House size={32} /> },
+               { title: 'أفراد شغوفين بتطوير مهاراتهم والارتقاء بذواتهم', icon: <Award size={32} /> },
+               { title: 'الوالدية والولدية لتفعيل الأدوار الوظيفية الرسالية', icon: <Compass size={32} /> },
+               { title: 'المدمنين وأشخاص في طريق التعافي يبحثون عن الدعم و بوصلة التغيير', icon: <Eye size={32} /> },
              ].map((item, idx) => (
                <div key={idx} className="flex flex-col items-center justify-center p-8 bg-white rounded-2xl border border-beige-100 hover:border-primary-200 transition">
                  <div className="text-primary-700 mb-4">{item.icon}</div>

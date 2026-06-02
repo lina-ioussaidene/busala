@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Facebook, Twitter, Instagram, Mail, Phone, MapPin } from 'lucide-react';
+import { Facebook, Youtube, Instagram, Mail, Phone, MapPin } from 'lucide-react';
 
 export default function Footer() {
   return (
@@ -7,22 +7,11 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-12">
           {/* Brand */}
-          <div className="space-y-4">
-             <Link to="/" className="text-2xl font-bold text-primary-800 flex items-center">
-              مركز بوصلة
-              <span className="font-light text-gray-400 text-lg mr-1 tracking-wide">للبناء الرسالي</span>
+          <div className="space-y-4 flex flex-col items-start md:items-start">
+            <Link to="/" className="text-2xl font-bold text-primary-800 flex flex-row-reverse items-center gap-2">
+            <span>مركز بوصلة</span>
+            <span className="font-light text-gray-400 text-lg tracking-wide">للبناء الرسالي</span>
             </Link>
-            
-            <div className="flex space-x-4 space-x-reverse pt-2">
-              <a href="https://www.facebook.com/profile.php?id=61589626752270" className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-primary-800 hover:border-primary-800 transition">
-                <Facebook size={18} />
-              </a>
-              
-              <a href="https://www.instagram.com/busala_centre?utm_source=qr&igsh=ZGY2dzQxMWM3Zmhz" className="w-10 h-10 rounded-full border border-gray-200 flex items-center justify-center text-gray-400 hover:text-primary-800 hover:border-primary-800 transition">
-                <Instagram size={18} />
-              </a>
-              
-            </div>
           </div>
 
           {/* Links */}
@@ -47,7 +36,7 @@ export default function Footer() {
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="text-primary-800 flex-shrink-0" size={18} />
-                <span className="text-gray-500" dir="ltr">+213 793 11 26 71</span>
+                <span className="text-gray-500" dir="ltr">+213 793 11 26 71 <br />+213 551 43 76 55 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail className="text-primary-800 flex-shrink-0" size={18} />

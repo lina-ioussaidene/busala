@@ -8,7 +8,7 @@ export default function Programs() {
       id: 1,
       telegramLink: 'https://t.me/maqraatalnaim',
       title: 'مقرأة نعيم| لحفظ وتفسير وتدبر القرآن الكريم',
-      desc: 'مشروع قرآني يعنى بربط الأفراد بكتاب الله تعالى، من خلال منهج متكامل يحقق الواجبات الخمس تجاه القرآن الكريم تجمع بين التلاوة، الحفظ، الفهم، التدبر والعمل. ترى أن علاقتك بالقرآن تبقى أحيانًا محصورة في التلاوة فقط؟ تقرأ..لكن دون أن يتحول ذلك إلى فهم عميق، أو أثر واضح في سلوكك وحياتك؟ نقدم لك من خلال مقرأة نعيم منهج متكامل يؤصل للعلاقة المنهجية بالقرآن الكريم في إطار تفعيل الواجبات الخمسة من التلاوة، الحفظ، الفهم، التدبر، والعمل.',
+      desc: ' نقدم لك من خلال مقرأة نعيم منهج متكامل يؤصل للعلاقة المنهجية بالقرآن الكريم في إطار تفعيل الواجبات الخمسة من التلاوة، الحفظ، الفهم، التدبر، والعمل.',
       image: '/images/naim coran.png',
       details: {
         objectives: [
@@ -21,7 +21,7 @@ export default function Programs() {
           'مخيمات حفظ دورية',
           'دروس تفسير مبسطة',
           'مجالس تدبر قرآنية',
-          'دورات في أحكام التلاوة'
+          'دورات in أحكام التلاوة'
         ]
       }
     },
@@ -36,7 +36,7 @@ export default function Programs() {
           'تعزيز الوعي الذاتي والرسالي لدى المرأة',
           'تطوير المهارات الشخصية والقيادية',
           'تمكين المرأة من أداء دورها الأسري والمجتمعي بوعي واتزان',
-          'إعادة صياغة رؤية المرأة لنفسها، لتصبح صاحبة رسالة، وفاعلة في بيتها ومجتمعها، بوعي وقوة وأثر'
+          'إعادة صياغة رؤية المرأة لنفسها، لتصبح صاحبة رسالة، وفاعلة في بيتها ومجتمعها, بوعي وقوة وأثر'
         ],
         components: [
           'دورات تربوية متخصصة',
@@ -47,22 +47,22 @@ export default function Programs() {
     },
     {
       id: 3,
-      telegramLink: 'https://t.me/+LN5PywgabXpiMzJk',
+      telegramLink: 'https://t.me/muntadaashabinmutaeafi',
       title: 'منتدى شاب متعافي واعي عامل',
       desc: 'تحاول التوقف أو التغيير، لكنك تعود لنفس الدائرة مرة بعد مرة! تشعر أحيانًا أن الأمور خرجت عن سيطرتك! أنت لست "ضعيف" بل أنت عالق في حلقة تحتاج إلى فهم، دعم، وإعادة بناء من جديد، بعيدًا عن الحكم أو الإدانة. من هنا يأتي منتدى شاب متعافي واعي عامل كفضاء آمن مخصص لك، يساعدك على استعادة توازنك وتعافيك وفاعليتك خطوة بخطوة، وبناء ذات جديدة أكثر وعيًا واستقرارًا قادرة على العطاء والعمل.',
       image: '/images/addictif.png',
       details: {
         objectives: [
-          'مساعدتك على التعافي الفكري والسلوكي والخروج من دائرة الإدمان',
-          'التكملة في إعادة بناء الثقة وتخطي الهشاشة النفسية',
-          'وتبادل الخبرات مع شباب متعافين حققوا الفاعلية)',
-          'تفعيل زاوية الإمكان: أنك قادر على التعافي، وإعادة بناء نفسك، والعودة أقوى مما كنت'
+          'الخروج من دائرة الإدمان',
+          'إعادة بناء وعيك ومسؤوليتك تجاه نفسك ومحيطك بتفعيل أدوارك الوجودية.',
+          'تنمية قدرتك على البدء من جديد بروح إيجابية.',
+          'دعمك لتصبح شخصًا متوازنًا، فاعلًا، وقادرًا على العطاء.',
+          'تفعيل زاوية الإمكان: أنك قادر على التعافي، وإعادة بناء نفسك، والعودة أقوى مما كنت.'
         ],
         components: [
           'لقاءات توعوية دورية مع مختصين تساعدك على الفهم والتغيير',
           'ورشات تطوير الذات والمهارات لإعادة بناء الثقة',
           'جلسات نقاش وتبادل تجارب مع أشخاص يمرّون بتجارب مشابهة',
-          'برامج دعم نفسي واجتماعي'
         ]
       }
     },
@@ -70,7 +70,7 @@ export default function Programs() {
       id: 4,
       telegramLink: 'https://t.me/+lq5ThGnaSZ9jNjc0',
       title: 'برنامج ألفة للتأهيل الأسري',
-      desc: 'تشعر أن التحديات الأسرية اليوم لم تعد بسيطة مع سوء الفهم، والضغوط اليومية، واختلاف في أساليب التربية، عدم تكامل أدوار الوالدية، وصعوبة إدارة العلاقة الزوجية، وتفاقم مشاكل الأبناء وتحدياتهم مما يؤثر على استقرار الأسرة وهدوئها؟ المشكل ليس في الأسرة نفسها، بل في غياب التأهيل الذي يمنح أفرادها أدوات الفهم، التواصل، وإدارة الحياة المشتركة بوعي واتزان. من هنا يأتي برنامج ألفة للتأهيل الأسري، وهو برنامج تدريبي شامل يأهل المقبلين على الزواج والمتزوجين لبناء حياة زوجية مستقرة، من خلال تنمية مهارات التواصل وحل الخلافات، وتربية الأبناء والتعامل مع تحدياتهم العمرية وبناء أسرة مستقرة رسالية بأساليب تربوية حضارية.',
+      desc: 'تشعر أن التحديات الأسرية اليوم لم تعد بسيطة مع سوء الفهم، والضغوط اليومية، وااختلاف في أساليب التربية، عدم تكامل أدوار الوالدية، وصعوبة إدارة العلاقة الزوجية، وتفاقم مشاكل الأبناء وتحدياتهم مما يؤثر على استقرار الأسرة وهدوئها؟ المشكل ليس في الأسرة نفسها، بل في غياب التأهيل الذي يمنح أفرادها أدوات الفهم، التواصل، وإدارة الحياة المشتركة بوعي واتزان. من هنا يأتي برنامج ألفة للتأهيل الأسري، وهو برنامج تدريبي شامل يأهل المقبلين على الزواج والمتزوجين لبناء حياة زوجية مستقرة، من خلال تنمية مهارات التواصل وحل الخلافات، وتربية الأبناء والتعامل مع تحدياتهم العمرية وبناء أسرة مستقرة رسالية بأساليب تربوية حضارية.',
       image: '/images/projet olfa.png',
       details: {
         objectives: [ 
@@ -83,31 +83,21 @@ export default function Programs() {
         ],
         components: [
           'دورات تأهيل ما قبل الزواج',
-          'ورشات تواصل زوجي',
-          'برامج تربية الأبناء',
+          'ورشات تواصل زواجي',
+          'برامج تربوية للأبناء',
           'جلسات إرشادية أسرية'
         ]
       }
     },
     {
       id: 5,
-  telegramLink: 'https://t.me/VOTRE_LIEN_PROJET5',
-  title: 'برنامج البناء الرسالي',
-  desc: 'إذا شعرت يوماً أن تفاصيل حياتك خرجت عن السيطرة، فاعلم أنك لست ضعيفاً بل أنت عالق في مكان لا يشبهك. رحلة التغيير الحقيقي تبدأ هنا. نظام الدفعات (Cohorts) في مركز بوصلة هو مسار معرفي، تربوي، وثقافي متكامل، مصمم لانتشالك من الركود ومساعدتك على استعادة السيطرة. عبر برامج ودورات منهجية ومحددة المدة، نرافقك في مراحل مدروسة تنطلق من التأهيل وتصل بك إلى التمكين، لنبني معاً شخصية متوازنة، تعيش وعيها وقيمها، وتمضي في الحياة بأثر عميق يخدم الأمة.',
+      telegramLink: 'https://t.me/albinaalrasaliu',
+      title: 'برنامج البناء الرسالي',
+      desc: 'مسار معرفي، تربوي، وثقافي متكامل، يقوم على نظام الدفعات (Cohorts)، مصمم لانتشالك من التشتت والعبثية واللافاعلية وضبط مسار بوصلتك نحو الرسالية وتحقيق الفاعلية الحضارية عبر برامج ودورات ومسارات منهجية متكاملة محددة المدة، نرافقك in رحلة معرفية مدروسة تنطلق من التأهيل وتصل بك إلى التمكين، لنبني معاً شخصية رسالية حضارية متوازنة، تعيش وعيها وقيمها، وتمضي in الحياة بأثر عميق يخدم ويرتقي بالمجتمع والوطن والأمة.',
       image: '/images/projet construction.png',
       details: {
-        objectives: [
-          'تأهيل وتمكين الإنسان بشكل متكامل',
-          'التكملة إعادة بناء الثقة وتخطي الهشاشة النفسية',
-          'وتبادل الخبرات مع شباب متعافين حققوا الفاعلية)',
-          'ترك أثر إيجابي في المجتمع'
-        ],
-        components: [
-          'برامج تدريبية متخصصة',
-          'ورشات تطوير مهارات',
-          'دورات تأهيلية',
-          'مشاريع تطبيقية'
-        ]
+        objectives: [],
+        components: []
       }
     },
   ];
@@ -119,8 +109,8 @@ export default function Programs() {
           <h1 className="text-3xl md:text-5xl font-bold text-primary-800 mb-6">مشاريعنا</h1>
           <div className="w-24 h-1 bg-primary-300 mx-auto rounded-full mb-6"></div>
           <p className="text-lg text-gray-600 max-w-2xl mx-auto">
-           انطلاقاً من رؤيتنا في التأهيل والتمكين ، يقدم مركز بوصلة مجموعة من المشاريع
-النوعية التي تستهدف بناء اإلنسان الرسالي من مختلف الجوانب الفكرية ،الإيمانية ،
+            انطلاقاً من رؤيتنا في التأهيل والتمكين ، يقدم مركز بوصلة مجموعة من المشاريع
+النوعية التي تستهدف بناء الإنسان الرسالي من مختلف الجوانب الفكرية ،الإيمانية ،
 التربوية، الثقافية، السلوكية، المعرفية 
           </p>
         </div>
@@ -137,7 +127,11 @@ export default function Programs() {
                       ? 'object-cover group-hover:scale-110' 
                       : 'object-contain group-hover:scale-105'
                   }`}
-                  style={program.id === 2 || program.id === 3 || program.id === 5 ? { objectPosition: 'center 30%' } : {}}
+                  style={
+                    program.id === 5 
+                      ? { objectPosition: 'center ' } 
+                      : (program.id === 2 || program.id === 3 ? { objectPosition: 'center 30%' } : {})
+                  }
                 />
                 <div className="absolute inset-0 bg-primary-950/20 group-hover:bg-transparent transition duration-500"></div>
               </div>
@@ -174,29 +168,75 @@ export default function Programs() {
             
             {selectedProgram.details && (
               <div className="p-6 space-y-6">
-                <div>
-                  <h4 className="text-lg font-bold text-gray-900 mb-4">أهداف المشروع:</h4>
-                  <ul className="space-y-2">
-                    {selectedProgram.details.objectives.map((objective, idx) => (
-                      <li key={idx} className="flex items-start gap-3">
-                        <div className="w-2 h-2 bg-primary-800 rounded-full mt-2 flex-shrink-0"></div>
-                        <span className="text-gray-700">{objective}</span>
+                {selectedProgram.id === 5 ? (
+                  /* تصميم مخصص كلياً للمشروع رقم 5 يلغي الأهداف والمكونات */
+                  <div className="space-y-4 text-right" dir="rtl">
+                    <h4 className="text-xl font-bold text-gray-900 mb-3">منهجيتنا:</h4>
+                    <p className="text-gray-700 leading-relaxed mb-6 font-medium">
+                      يعتمد البناء الرسالي على ثلاث مراحل أساسية بمسار تغيير حقيقي يصنع إنسانًا واعيًا، متوازنًا، وفاعلًا في مجتمعه برسالة واضحة وأثر ممتد:
+                    </p>
+                    <ol className="space-y-5">
+                      <li className="flex items-start gap-4">
+                        <div className="w-6 h-6 bg-primary-100 text-primary-800 rounded-full flex items-center justify-center font-bold text-sm mt-1 flex-shrink-0">
+                          ١
+                        </div>
+                        <div>
+                          <h5 className="font-bold text-gray-900 text-base mb-1">مرحلة التأهيل</h5>
+                          <p className="text-gray-600 leading-normal">مرحلة تأسيسية تُعنى ببناء الأساس الفكري والقيمي، وتصحيح المفاهيم، وتعزيز الوعي بالذات والرسالة.</p>
+                        </div>
                       </li>
-                    ))}
-                  </ul>
-                </div>
-                
-                <div>
-                  <h4 className="text-lg font-bold text-gray-900 mb-4">مكونات البرنامج:</h4>
-                  <ul className="space-y-2">
-                    {selectedProgram.details.components.map((component, idx) => (
-                      <li key={idx} className="flex items-start gap-3">
-                        <div className="w-2 h-2 bg-primary-800 rounded-full mt-2 flex-shrink-0"></div>
-                        <span className="text-gray-700">{component}</span>
+                      <li className="flex items-start gap-4">
+                        <div className="w-6 h-6 bg-primary-100 text-primary-800 rounded-full flex items-center justify-center font-bold text-sm mt-1 flex-shrink-0">
+                          ٢
+                        </div>
+                        <div>
+                          <h5 className="font-bold text-gray-900 text-base mb-1">مرحلة التكوين</h5>
+                          <p className="text-gray-600 leading-normal">مرحلة تنمية المهارات الشخصية والقيادية، وصناعة الانضباط الذاتي، وتطوير الكفاءات العلمية والتطبيقية.</p>
+                        </div>
                       </li>
-                    ))}
-                  </ul>
-                </div>
+                      <li className="flex items-start gap-4">
+                        <div className="w-6 h-6 bg-primary-100 text-primary-800 rounded-full flex items-center justify-center font-bold text-sm mt-1 flex-shrink-0">
+                          ٣
+                        </div>
+                        <div>
+                          <h5 className="font-bold text-gray-900 text-base mb-1">مرحلة التمكين</h5>
+                          <p className="text-gray-600 leading-normal">مرحلة التطبيق العملي والمرافقة الميدانية، لتحويل المكتسبات إلى مشاريع واقعية وأثر ملموس يرتقى بالمجتمع والوطن والأمة.</p>
+                        </div>
+                      </li>
+                    </ol>
+                  </div>
+                ) : (
+                  /* العرض الطبيعي لباقي المشاريع */
+                  <>
+                    <div>
+                      <h4 className="text-lg font-bold text-gray-900 mb-4">
+                        {selectedProgram.id === 3 ? 'أهداف المنتدى:' : 'أهداف المشروع:'}
+                      </h4>
+                      <ul className="space-y-2">
+                        {selectedProgram.details.objectives.map((objective, idx) => (
+                          <li key={idx} className="flex items-start gap-3">
+                            <div className="w-2 h-2 bg-primary-800 rounded-full mt-2 flex-shrink-0"></div>
+                            <span className="text-gray-700">{objective}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                    
+                    <div>
+                      <h4 className="text-lg font-bold text-gray-900 mb-4">
+                        {selectedProgram.id === 3 ? 'برنامج المنتدى:' : 'مكونات البرنامج:'}
+                      </h4>
+                      <ul className="space-y-2">
+                        {selectedProgram.details.components.map((component, idx) => (
+                          <li key={idx} className="flex items-start gap-3">
+                            <div className="w-2 h-2 bg-primary-800 rounded-full mt-2 flex-shrink-0"></div>
+                            <span className="text-gray-700">{component}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  </>
+                )}
                 
                 <div className="mt-8 pt-6 border-t border-gray-200">
                   <a 

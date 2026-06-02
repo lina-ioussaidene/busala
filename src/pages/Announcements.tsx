@@ -45,7 +45,7 @@ export default function Announcements() {
     },
     {
       id: 2,
-      image: '/images/1778874441168.jpg'
+      image: '/images/WhatsApp Image 2026-06-02 at 10.17.09.jpeg'
     },
     {
       id: 3,
