@@ -1,7 +1,7 @@
 import { MessageCircle, HeartHandshake, BookOpen, Users, Baby } from 'lucide-react';
 
 export default function Consultations() {
-  const whatsappNumber = '+213 793 11 26 71'; // Replace with real number
+  const whatsappNumber = '+213 551 43 76 55'; // Replace with real number
   const message = 'السلام عليكم، أود حجز استشارة';
   const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
 

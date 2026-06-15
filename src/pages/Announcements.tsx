@@ -10,31 +10,32 @@ export default function Announcements() {
   const upcomingActivities = [
     {
       id: 1,
-      title: 'دورة تدبر القرآن الكريم',
-      date: '15 مايو 2026',
-      time: '19:00',
-      location: 'قاعة المؤتمرات - المركز الرئيسي',
-      description: 'دورة مكثفة في فهم وتدبر آيات القرآن الكريم مع الشيخ الدكتور أحمد محمد',
-      image: 'https://images.unsplash.com/photo-1580015238078-a492e51f9318?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      title: 'مخيم أنوار البيان',
+      date: 'ينطلق المخيم في 10/07/2026',
+     // time: '19:00',
+      location: 'إلكترونيا',
+      description: 'يسرنا أن نعلن عن افتتاح التسجيل في مخيمنا الصيفي الإلكتروني "أنوار البيان" ، المصمم خصيصًا لمساعدتكن على حفظ وتفسير و تدبر جزء عم من القرآن الكريم بفعالية و بخطة مدروسة ',
+      image: '/images/1ere annonce.jpeg',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe0llNUmre36FNLqARLka8DpgoM8m_a4MdiCaw_bo7sj8jz8w/viewform'
     },
-    {
-      id: 2,
-      title: 'ورشة تطوير الذات',
-      date: '20 مايو 2026',
-      time: '14:00',
-      location: 'مركز التدريب',
-      description: 'ورشة عملية في تطوير المهارات الشخصية والمهنية للشباب',
-      image: 'https://images.unsplash.com/photo-1515378791036-bafc5e651e69?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
-    },
-    {
-      id: 3,
-      title: 'مخيم صيفي للشباب',
-      date: '1-3 يونيو 2026',
-      time: 'مخيم داخلي',
-      location: 'مخيمات الجبل',
-      description: 'مخيم تربوي وثقافي لتطوير شخصية الشباب وبناء القيم',
-      image: ''
-    }
+   // {
+      //id: 2,
+      //title: 'ورشة تطوير الذات',
+      //date: '20 مايو 2026',
+     // time: '14:00',
+     // location: 'مركز التدريب',
+     // description: 'ورشة عملية في تطوير المهارات الشخصية والمهنية للشباب',
+      //image: 'https://images.unsplash.com/photo-1515378791036-bafc5e651e69?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    //},
+    //{
+     // id: 3,
+     // title: 'مخيم صيفي للشباب',
+     // date: '1-3 يونيو 2026',
+     // time: 'مخيم داخلي',
+     // location: 'مخيمات الجبل',
+     // description: 'مخيم تربوي وثقافي لتطوير شخصية الشباب وبناء القيم',
+     // image: ''
+   // }
   ];
 
   // Past activities
@@ -129,11 +130,11 @@ export default function Announcements() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {upcomingActivities.map((activity) => (
               <div key={activity.id} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
-                <div className="relative h-48">
+                <div className="relative h-[450px] bg-gray-50 p-4 border-b border-gray-100 flex items-center justify-center">
                   <img 
                     src={activity.image} 
                     alt={activity.title} 
-                    className="w-full h-full object-cover"
+                    className="max-w-full max-h-full object-contain drop-shadow-md rounded-md"
                   />
                   <div className="absolute top-4 right-4 bg-primary-800 text-white px-3 py-1 rounded-full text-sm font-bold">
                     قادم
@@ -148,19 +149,24 @@ export default function Announcements() {
                       <Calendar size={16} className="text-primary-800" />
                       <span>{activity.date}</span>
                     </div>
-                    <div className="flex items-center gap-2">
-                      <Clock size={16} className="text-primary-800" />
-                      <span>{activity.time}</span>
-                    </div>
+                    
                     <div className="flex items-center gap-2">
                       <MapPin size={16} className="text-primary-800" />
                       <span>{activity.location}</span>
                     </div>
                   </div>
                   
-                  <button className="w-full mt-6 py-3 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition">
-                    التسجيل في النشاط
-                  </button>
+                  {activity.registrationLink && (
+                    <a 
+                      href={activity.registrationLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-center w-full mt-6 py-3 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition cursor-pointer"
+                    >
+                      التسجيل في النشاط
+                    </a>
+                  )}
+                  
                 </div>
               </div>
             ))}

@@ -94,7 +94,7 @@ export default function Programs() {
       telegramLink: 'https://t.me/albinaalrasaliu',
       title: 'برنامج البناء الرسالي',
       desc: 'مسار معرفي، تربوي، وثقافي متكامل، يقوم على نظام الدفعات (Cohorts)، مصمم لانتشالك من التشتت والعبثية واللافاعلية وضبط مسار بوصلتك نحو الرسالية وتحقيق الفاعلية الحضارية عبر برامج ودورات ومسارات منهجية متكاملة محددة المدة، نرافقك في رحلة معرفية مدروسة تنطلق من التأهيل وتصل بك إلى التمكين، لنبني معاً شخصية رسالية حضارية متوازنة، تعيش وعيها وقيمها، وتمضي في الحياة بأثر عميق يخدم ويرتقي بالمجتمع والوطن والأمة.',
-      image: '/images/projet construction.png',
+      image: '/images/projet construction etudiant.png',
       details: {
         objectives: [],
         components: []
@@ -115,7 +115,7 @@ export default function Programs() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8 justify-items-center">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
           {programs.map((program) => (
             <div key={program.id} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow border border-gray-200 flex flex-col group md:max-w-none max-w-full w-80">
               <div className="relative h-56 overflow-hidden">
@@ -123,14 +123,14 @@ export default function Programs() {
                   src={program.image} 
                   alt={program.title} 
                   className={`w-full h-full transition duration-500 ${
-                    program.id === 2 || program.id === 3 || program.id === 5
+                    program.id === 2 || program.id === 3 
                       ? 'object-cover group-hover:scale-110' 
                       : 'object-contain group-hover:scale-105'
                   }`}
                   style={
                     program.id === 5 
                       ? { objectPosition: 'center ' } 
-                      : (program.id === 2 || program.id === 3 ? { objectPosition: 'center 30%' } : {})
+                      : (program.id === 2 || program.id === 3 ? { objectPosition: 'center 10%' } : {})
                   }
                 />
                 <div className="absolute inset-0 bg-primary-950/20 group-hover:bg-transparent transition duration-500"></div>
