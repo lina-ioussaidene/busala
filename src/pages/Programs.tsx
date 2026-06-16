@@ -94,7 +94,7 @@ export default function Programs() {
       telegramLink: 'https://t.me/albinaalrasaliu',
       title: 'برنامج البناء الرسالي',
       desc: 'مسار معرفي، تربوي، وثقافي متكامل، يقوم على نظام الدفعات (Cohorts)، مصمم لانتشالك من التشتت والعبثية واللافاعلية وضبط مسار بوصلتك نحو الرسالية وتحقيق الفاعلية الحضارية عبر برامج ودورات ومسارات منهجية متكاملة محددة المدة، نرافقك في رحلة معرفية مدروسة تنطلق من التأهيل وتصل بك إلى التمكين، لنبني معاً شخصية رسالية حضارية متوازنة، تعيش وعيها وقيمها، وتمضي في الحياة بأثر عميق يخدم ويرتقي بالمجتمع والوطن والأمة.',
-      image: '/images/projet construction etudiant.png',
+      image: '/images/projet etudiant.png',
       details: {
         objectives: [],
         components: []
@@ -123,14 +123,14 @@ export default function Programs() {
                   src={program.image} 
                   alt={program.title} 
                   className={`w-full h-full transition duration-500 ${
-                    program.id === 2 || program.id === 3 
+                    program.id === 2 || program.id === 3 || program.id === 5 
                       ? 'object-cover group-hover:scale-110' 
                       : 'object-contain group-hover:scale-105'
                   }`}
                   style={
                     program.id === 5 
                       ? { objectPosition: 'center ' } 
-                      : (program.id === 2 || program.id === 3 ? { objectPosition: 'center 10%' } : {})
+                      : (program.id === 2 || program.id === 3 ? { objectPosition: 'center 30%' } : {})
                   }
                 />
                 <div className="absolute inset-0 bg-primary-950/20 group-hover:bg-transparent transition duration-500"></div>

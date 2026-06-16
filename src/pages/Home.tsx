@@ -217,7 +217,7 @@ export default function Home() {
           <div className="bg-beige-50 p-8 md:p-12 rounded-3xl">
             <div className="grid grid-cols-2 md:grid-cols-3 gap-6">
               <a 
-                href="https://wa.me/qr/YZAU7SOYGS3LD1"
+                href="https://wa.me/qr/FCMWOF67XL34I1"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex flex-col items-center justify-center p-6 bg-primary-800 rounded-xl border border-primary-800 hover:bg-white hover:border-primary-800 hover:shadow-lg transition-all group"

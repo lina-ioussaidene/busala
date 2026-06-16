@@ -11,12 +11,21 @@ export default function Announcements() {
     {
       id: 1,
       title: 'مخيم أنوار البيان',
+      edition: '(الطبعة الثالثة)',
       date: 'ينطلق المخيم في 10/07/2026',
      // time: '19:00',
       location: 'إلكترونيا',
       description: 'يسرنا أن نعلن عن افتتاح التسجيل في مخيمنا الصيفي الإلكتروني "أنوار البيان" ، المصمم خصيصًا لمساعدتكن على حفظ وتفسير و تدبر جزء عم من القرآن الكريم بفعالية و بخطة مدروسة ',
+      features: [
+        'مرافقة معلمات مؤهلات',
+        'تعلم احكام التجويد برواية ورش عن نافع',
+        'محاضرات في التفسير',
+        'شهادة حفظ وتفسير وتدبر فقه مفاتيح تدبر القران الكريم',
+        'سعر رمزي'
+      ],
       image: '/images/1ere annonce.jpeg',
-      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe0llNUmre36FNLqARLka8DpgoM8m_a4MdiCaw_bo7sj8jz8w/viewform'
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe0llNUmre36FNLqARLka8DpgoM8m_a4MdiCaw_bo7sj8jz8w/viewform',
+      telegramLink: 'https://t.me/maqraatalnaim'
     },
    // {
       //id: 2,
@@ -141,33 +150,72 @@ export default function Announcements() {
                   </div>
                 </div>
                 <div className="p-6">
-                  <h3 className="text-xl font-bold text-gray-900 mb-3">{activity.title}</h3>
-                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">{activity.description}</p>
-                  
-                  <div className="space-y-2 text-sm text-gray-500">
-                    <div className="flex items-center gap-2">
-                      <Calendar size={16} className="text-primary-800" />
-                      <span>{activity.date}</span>
-                    </div>
-                    
-                    <div className="flex items-center gap-2">
-                      <MapPin size={16} className="text-primary-800" />
-                      <span>{activity.location}</span>
-                    </div>
-                  </div>
-                  
-                  {activity.registrationLink && (
-                    <a 
-                      href={activity.registrationLink}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="block text-center w-full mt-6 py-3 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition cursor-pointer"
-                    >
-                      التسجيل في النشاط
-                    </a>
-                  )}
-                  
-                </div>
+  {/* Titre en Grenat (primary-800) */}
+  <h3 className="text-xl font-bold text-primary-800 mb-3">{activity.title}</h3>
+                 {/* Édition avec une autre police, en grenat et plus grande */}
+  {activity.edition && (
+    <span className="block text-base font-semibold text-primary-800 font-serif mb-3 tracking-wide">
+      {activity.edition}
+    </span>
+  )}
+  
+  <p className="text-gray-600 mb-4 text-sm leading-relaxed">{activity.description}</p>
+  
+  {/* Liste des caractéristiques (Features) */}
+  {activity.features && (
+    <div className="mb-6 bg-gray-50 p-3 rounded-lg border-r-4 border-primary-300">
+      <h4 className="font-bold text-primary-800 text-sm mb-2">مميزات المخيم :</h4>
+      <ul className="space-y-1">
+        {activity.features.map((feature, idx) => (
+          <li key={idx} className="text-xs text-gray-700 flex items-start gap-2">
+            <span className="text-primary-800">•</span>
+            {feature}
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+
+  {/* Informations, Date, Lieu et Telegram */}
+  <div className="space-y-3 text-sm text-gray-500 mb-6">
+    <div className="flex items-center gap-2">
+      <Calendar size={16} className="text-primary-800" />
+      <span>{activity.date}</span>
+    </div>
+    
+    <div className="flex items-center gap-2">
+      <MapPin size={16} className="text-primary-800" />
+      <span>{activity.location}</span>
+    </div>
+
+       {/* Lien Telegram Large avec Icone */}
+    {activity.telegramLink && (
+      <a 
+        href={activity.telegramLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-3 p-3 mt-4 bg-primary-50 text-primary-800 rounded-lg hover:bg-primary-100 transition-colors border border-primary-100 group w-full"
+      >
+        <div className="bg-primary-800 text-white p-1.5 rounded-full group-hover:scale-110 transition-transform">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+        </div>
+        <span className="font-bold text-base">قناة التيليجرام للمشروع</span>
+      </a>
+    )}
+  </div>
+
+  {/* Bouton d'inscription principal */}
+  {activity.registrationLink && (
+    <a 
+      href={activity.registrationLink}
+      target="_blank"
+      rel="noopener noreferrer"
+      className="block text-center w-full py-3 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition shadow-md"
+    >
+      التسجيل في النشاط
+    </a>
+  )}
+</div>
               </div>
             ))}
           </div>
