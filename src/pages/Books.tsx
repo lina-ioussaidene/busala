@@ -6,31 +6,31 @@ export default function Books() {
       id: 1,
       title: 'دليل التأهيل الأسري ',
       desc: 'دليلك العملي لبناء أسرة مستقرة ورسالية.',
-      image: 'images/livre famille.png',
+      image: '/images/livre famille.png', // Ajout du / initial pour Vercel
     },
     {
       id: 2,
       title: 'دليل التأهيل الحضاري للمراهق ',
       desc: 'مرجعك لتوجيه المراهقين نحو الهوية الرسالية.',
-      image: 'images/livre ado.png',
+      image: '/images/livre ado.png',
     },
     {
       id: 3,
       title: 'دليل التأهيل الحضاري لمرحلة الطفولة ',
       desc: 'أدواتك التربوية لمرحلة الطفولة.',
-      image: 'images/livre enfant.png',
+      image: '/images/livre enfant.png',
     },
     {
       id: 4,
       title: 'دليل التأهيل الحضاري للمعلمين',
       desc: 'منهجيتك للبناء الرسالي كمعلم',
-      image: 'images/livre prof.png',
+      image: '/images/livre prof.png',
     },
     {
       id: 5,
       title: 'دليل التأهيل الحضاري للموهوبين ',
       desc: 'خارطة طريق لتوجيه طاقات الموهوبين نحو صناعة الأثر وبناء المستقبل',
-      image: 'images/livre intello.png',
+      image: '/images/livre intello.png',
     },
   ];
 
@@ -39,38 +39,42 @@ export default function Books() {
       id: 1,
       title: 'المسألة التربوية وإعداد إنسان الحضارة وفق النموذج الحضاري عند مالك بن نبي',
       desc: 'رؤية في التنظير والتطبيق لإعداد الإنسان الحضاري.',
-      pdfUrl: 'articlepdf/المسألة-التربوية-وإعداد-إنسان-الحضارة-وفق-النموذج-الحضاري-عند-مالك-بن-نبي_-رؤية-في-التنظير-والتطبيق (1) (1).pdf'
+      pdfUrl: '/articlepdf/malek-bennabi.pdf',
+      downloadName: 'المسألة التربوية وإعداد إنسان الحضارة وفق النموذج الحضاري عند مالك بن نبي.pdf'
     },
     {
       id: 3,
       title: 'واقع التكفل النفسي والتربوي بالطفل المصاب بالإعاقة الذهنية',
       desc: 'دراسة ميدانية حول رعاية الأطفال ذوي الإعاقة.',
-      pdfUrl: 'articlepdf/واقع التكفل النفسي والتربوي بالطفل المصاب بالإعاقة الذهنية.pdf'
+      pdfUrl: '/articlepdf/prise-en-charge-psychologique.pdf',
+      downloadName: 'واقع التكفل النفسي والتربوي بالطفل المصاب بالإعاقة الذهنية.pdf'
     },
     {
       id: 4,
       title: 'منظومة الطيب برغوث السننية وفاعليتها في التأصيل لفقه النهضة الحضارية',
       desc: 'الوعي السني كنموذج للنهضة الحضارية المعاصرة.',
-      pdfUrl: 'articlepdf/منظومة-الطيب-برغوث-السننية-وفاعليتها-في-التأصيل-لفقه-النهضة-الحضارية-الوعي-السنني-...ational-renaissance.---sunni-consciousness-as-a-modle- - ٢٠٢٦-٠٥-٠٢T٠٨٣٩٢٠.٩٦٩.pdf'
+      pdfUrl: '/articlepdf/systeme-tayeb-barghouth.pdf',
+      downloadName: 'منظومة الطيب برغوث السننية وفاعليتها في التأصيل لفقه النهضة الحضارية.pdf'
     },
     {
       id: 5,
       title: 'ثلاثية “المعرفة – الثقافة – التربية” وفاعليتها في تحقيق النهضة الحضارية',
       desc: 'من منظور السننية الشاملة',
-      pdfUrl: 'articlepdf/ثلاثية “المعرفة – الثقافة – التربية” وفاعليتها في تحقيق النهضة الحضارية – أ قيراد دليلة – جامعة تلمسان.pdf'
+      pdfUrl: '/articlepdf/triade-connaissance-culture-education.pdf',
+      downloadName: 'ثلاثية المعرفة والثقافة والتربية وفاعليتها في تحقيق النهضة الحضارية – أ قيراد دليلة – جامعة تلمسان.pdf'
     },
     {
       id: 6,
       title:'بين يدي معركة طوفان الأقصى _مقاربات عقدية سننية',
       desc: 'رابط خارجي لمقال متاح عبر الإنترنت.',
-      linkUrl: 'https://arrabiaa.net/%D8%A8%D9%8A%D9%86-%D9%8A%D8%AF%D9%8A-%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B7%D9%88%D9%81%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89-_%D9%85%D9%82%D8%A7%D8%B1%D8%A8%D8%A7%D8%AA-%D8%B9%D9%82%D8%AF/'
+      linkUrl: 'https://arrabiaa.net/%D8%A8%D9%8A%D9%86-%D9%8A%D8%AF%D9%8A-%D9%85%D8%B9%D8%B1%D9%83%D8%A9-%D8%B7%D9%80%D9%88%D9%81%D8%A7%D9%86-%D8%A7%D9%84%D8%A3%D9%82%D8%B5%D9%89-_%D9%85%D9%82%D8%A7%D8%B1%D8%A8%D8%A7%D8%AA-%D8%B9%D9%82%D8%AF/'
     },
   ];
 
   const whatsappNumber = '+213 551 43 76 55';
 
   return (
-    <div className="pt-28 pb-24 min-h-screen bg-beige-50">
+    <div className="pt-28 pb-24 min-h-screen bg-beige-50" dir="rtl">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h1 className="text-3xl md:text-5xl font-bold text-primary-800 mb-6">إصدارات المركز</h1>
@@ -80,6 +84,7 @@ export default function Books() {
           </p>
         </div>
 
+        {/* Books Section */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
           {books.map((book) => {
             const message = `السلام عليكم، أود شراء كتاب: ${book.title}`;
@@ -88,7 +93,7 @@ export default function Books() {
             return (
               <div key={book.id} className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow flex flex-col group border border-gray-200">
                 <div className="relative h-64 overflow-hidden bg-gray-100 flex items-center justify-center">
-                   <img 
+                  <img 
                     src={book.image} 
                     alt={book.title} 
                     className="w-full h-full object-cover group-hover:scale-105 transition duration-500"
@@ -132,7 +137,8 @@ export default function Books() {
                   href={article.linkUrl ?? article.pdfUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  download={!article.linkUrl}
+                  // Si c'est un lien externe, pas de téléchargement. Sinon, applique le nom arabe personnalisé.
+                  download={article.linkUrl ? false : (article.downloadName ?? true)}
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition text-sm"
                 >
                   <ShoppingBag size={16} />
