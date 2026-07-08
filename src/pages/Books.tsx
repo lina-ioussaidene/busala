@@ -1,6 +1,29 @@
 import { ShoppingBag } from 'lucide-react';
+import { useState } from 'react';
 
 export default function Books() {
+  const [downloadingId, setDownloadingId] = useState<number | null>(null);
+
+  const handleDownload = async (pdfUrl: string, title: string, id: number) => {
+    setDownloadingId(id);
+    
+    try {
+      const response = await fetch(pdfUrl);
+      const blob = await response.blob();
+      const url = window.URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = `${title}.pdf`;
+      document.body.appendChild(a);
+      a.click();
+      window.URL.revokeObjectURL(url);
+      document.body.removeChild(a);
+    } catch (error) {
+      console.error('Erreur lors du téléchargement:', error);
+    } finally {
+      setDownloadingId(null);
+    }
+  };
   const books = [
     {
       id: 1,
@@ -129,16 +152,26 @@ export default function Books() {
                 <h3 className="text-xl font-bold text-gray-900 mb-3">{article.title}</h3>
                 <p className="text-gray-600 mb-6 leading-relaxed">{article.desc}</p>
                 
-                <a 
-                  href={article.linkUrl ?? article.pdfUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  download={article.linkUrl ? false : `${article.title}.pdf`}
-                  className="inline-flex items-center gap-2 px-4 py-2 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition text-sm"
-                >
-                  <ShoppingBag size={16} />
-                  <span>{article.linkUrl ? 'فتح الرابط' : 'تحميل PDF'}</span>
-                </a>
+                {article.linkUrl ? (
+                  <a 
+                    href={article.linkUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition text-sm"
+                  >
+                    <ShoppingBag size={16} />
+                    <span>فتح الرابط</span>
+                  </a>
+                ) : (
+                  <button
+                    onClick={() => handleDownload(article.pdfUrl!, article.title, article.id)}
+                    disabled={downloadingId !== null}
+                    className="inline-flex items-center gap-2 px-4 py-2 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition text-sm disabled:opacity-50 disabled:cursor-not-allowed"
+                  >
+                    <ShoppingBag size={16} />
+                    <span>{downloadingId === article.id ? 'جاري التحميل...' : 'تحميل PDF'}</span>
+                  </button>
+                )}
               </div>
             ))}
           </div>
