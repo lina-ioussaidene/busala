@@ -40,28 +40,24 @@ export default function Books() {
       title: 'المسألة التربوية وإعداد إنسان الحضارة وفق النموذج الحضاري عند مالك بن نبي',
       desc: 'رؤية في التنظير والتطبيق لإعداد الإنسان الحضاري.',
       pdfUrl: '/articlepdf/malek-bennabi.pdf',
-      downloadName: 'المسألة التربوية وإعداد إنسان الحضارة وفق النموذج الحضاري عند مالك بن نبي.pdf'
     },
     {
       id: 3,
       title: 'واقع التكفل النفسي والتربوي بالطفل المصاب بالإعاقة الذهنية',
       desc: 'دراسة ميدانية حول رعاية الأطفال ذوي الإعاقة.',
       pdfUrl: '/articlepdf/prise-en-charge-psychologique.pdf',
-      downloadName: 'واقع التكفل النفسي والتربوي بالطفل المصاب بالإعاقة الذهنية.pdf'
     },
     {
       id: 4,
       title: 'منظومة الطيب برغوث السننية وفاعليتها في التأصيل لفقه النهضة الحضارية',
       desc: 'الوعي السني كنموذج للنهضة الحضارية المعاصرة.',
       pdfUrl: '/articlepdf/systeme-tayeb-barghouth.pdf',
-      downloadName: 'منظومة الطيب برغوث السننية وفاعليتها في التأصيل لفقه النهضة الحضارية.pdf'
     },
     {
       id: 5,
-      title: 'ثلاثية “المعرفة – الثقافة – التربية” وفاعليتها في تحقيق النهضة الحضارية',
+      title: 'ثلاثية "المعرفة – الثقافة – التربية" وفاعليتها في تحقيق النهضة الحضارية',
       desc: 'من منظور السننية الشاملة',
       pdfUrl: '/articlepdf/triade-connaissance-culture-education.pdf',
-      downloadName: 'ثلاثية المعرفة والثقافة والتربية وفاعليتها في تحقيق النهضة الحضارية – أ قيراد دليلة – جامعة تلمسان.pdf'
     },
     {
       id: 6,
@@ -137,8 +133,7 @@ export default function Books() {
                   href={article.linkUrl ?? article.pdfUrl}
                   target="_blank"
                   rel="noopener noreferrer"
-                  // Si c'est un lien externe, pas de téléchargement. Sinon, applique le nom arabe personnalisé.
-                  download={article.linkUrl ? false : (article.downloadName ?? true)}
+                  download={article.linkUrl ? false : `${article.title}.pdf`}
                   className="inline-flex items-center gap-2 px-4 py-2 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition text-sm"
                 >
                   <ShoppingBag size={16} />
