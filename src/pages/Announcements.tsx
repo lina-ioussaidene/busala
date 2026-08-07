@@ -13,7 +13,6 @@ export default function Announcements() {
       title: 'مخيم أنوار البيان',
       edition: '(الطبعة الثالثة)',
       date: 'ينطلق المخيم في 10/07/2026',
-     // time: '19:00',
       location: 'إلكترونيا',
       description: 'يسرنا أن نعلن عن افتتاح التسجيل في مخيمنا الصيفي الإلكتروني "أنوار البيان" ، المصمم خصيصًا لمساعدتكن على حفظ وتفسير و تدبر جزء عم من القرآن الكريم بفعالية و بخطة مدروسة ',
       features: [
@@ -28,6 +27,25 @@ export default function Announcements() {
       registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe0llNUmre36FNLqARLka8DpgoM8m_a4MdiCaw_bo7sj8jz8w/viewform',
       telegramLink: 'https://t.me/maqraatalnaim'
     },
+    {
+      id: 2, // Tu peux incrémenter l'ID
+      title: 'دورة كتالوج ألفة للتأهيل الزواجي',
+      edition: '', // Pas d'édition mentionnée dans ce texte, on laisse vide
+      date: 'التسجيل مفتوح (الأماكن محدودة)', // Pas de date exacte fournie, mais c'est mentionné que c'est limité
+      location: 'عن بعد (مجموعات منفصلة)', // Déduit des groupes WhatsApp
+      description: 'برنامج تدريبي متكامل يجمع بين التأصيل الشرعي والخبرة العملية لمرافقة المقبلين على الزواج والمتزوجين نحو تأسيس حياة أسرية مستقرة وواعية، عبر 6 محاور شاملة (دينية، نفسية، قانونية، اجتماعية، مالية، وصحية).',
+      features: [
+        'فهم أعمق للحياة الزوجية ومتطلباتها',
+        'اكتساب مهارات التواصل والحوار الفعّال',
+        'تعلّم أساليب التعامل مع الخلافات بطريقة بنّاءة',
+        'الإلمام بالحقوق والواجبات الزوجية',
+        'إدارة الأسرة ماليًا ونفسيًا واجتماعيًا',
+        'مرافقة من استشاريين ومختصين أسريين'
+      ],
+      image: '/images/2eme annonce.jpeg', // N'oublie pas de mettre le bon nom d'image (sans espaces !)
+      registrationLink: 'https://forms.gle/HCVmzqLaL6Btriku7',
+      whatsappLink: 'https://wa.me/qr/FCMWOF67XL34I1' // J'ai remplacé telegramLink par whatsappLink car c'est ce qu'elle a fourni
+    }
    // {
       //id: 2,
       //title: 'ورشة تطوير الذات',
