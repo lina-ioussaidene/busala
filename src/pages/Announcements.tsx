@@ -9,7 +9,25 @@ export default function Announcements() {
   // Upcoming activities
   const upcomingActivities = [
     {
-      id: 1,
+      id: 1, // On lui donne l'ID 1 pour qu'elle soit en premier
+      title: 'استشارات أسرية وتربوية مع مركز بوصلة',
+      edition: '',
+      date: '🎁 الجلسة الاستشارية الأولى مجاناً', // J'ai mis en avant l'offre pour attirer l'attention
+      location: 'مركز بوصلة (سرية تامة)',
+      description: 'مساحة آمنة وسرية مع الأستاذة قيراد دليلة لمرافقتك في تجاوز الضغوطات، حل الخلافات الزوجية، وفهم احتياجات أبنائك بخطوات عملية تعيد لك التوازن والطمأنينة.',
+      features: [
+        'استشارات أسرية وزواجية وإدارة الخلافات',
+        'إرشاد تربوي بأساليب واعية ومتوازنة',
+        'استشارات دينية وحياتية بمرجعية إسلامية',
+        'سرية وخصوصية تامة وإنصات بدون أحكام',
+        'حلول عملية تناسب ظروفك واحتياجاتك'
+      ],
+      image: '/images/annonce consultation.png', // Mets le nom de l'image modifiée ici
+      registrationLink: '', // On laisse vide car c'est un contact direct
+      whatsappLink: 'https://wa.me/message/QXIAB7C2H5XUA1'
+    },
+    {
+      id: 2,
       title: 'مخيم أنوار البيان',
       edition: '(الطبعة الثالثة)',
       date: 'ينطلق المخيم في 10/07/2026',
@@ -28,7 +46,7 @@ export default function Announcements() {
       telegramLink: 'https://t.me/maqraatalnaim'
     },
     {
-      id: 2, // Tu peux incrémenter l'ID
+      id: 3, // Tu peux incrémenter l'ID
       title: 'دورة كتالوج ألفة للتأهيل الزواجي',
       edition: '', // Pas d'édition mentionnée dans ce texte, on laisse vide
       date: 'التسجيل مفتوح (الأماكن محدودة)', // Pas de date exacte fournie, mais c'est mentionné que c'est limité
@@ -44,7 +62,25 @@ export default function Announcements() {
       ],
       image: '/images/2eme annonce.jpeg', // N'oublie pas de mettre le bon nom d'image (sans espaces !)
       registrationLink: 'https://forms.gle/HCVmzqLaL6Btriku7',
-      whatsappLink: 'https://wa.me/qr/FCMWOF67XL34I1' // J'ai remplacé telegramLink par whatsappLink car c'est ce qu'elle a fourni
+      whatsappLink: 'https://wa.me/message/QXIAB7C2H5XUA1' // J'ai remplacé telegramLink par whatsappLink car c'est ce qu'elle a fourni
+    },
+    {
+      id: 4, 
+      title: 'رحلة إيمانية مع أسماء الله الحسنى',
+      edition: '', // Pas d'édition
+      date: 'قريباً...', // Date non définie, c'est un teasing
+      location: 'على قناة اليوتيوب', 
+      description: 'رحلة إيمانية جديدة نعيش فيها مع أسماء الله الحسنى، نتعرّف عليها، ونتعبّد الله بها، ونستلهم أثرها في حياتنا اليومية لاكتشاف كيف تصنع معانيها إنساناً رسالياً يحمل الخير لنفسه وأمته.',
+      features: [
+        'التعرف العميق على أسماء الله الحسنى ومعانيها',
+        'استلهام أثر الأسماء في الحياة اليومية',
+        'بناء شخصية الإنسان الرسالي',
+        'توسيع المدارك ونيل الألطاف بالدعاء',
+        'حلقات مرئية ومجانية'
+      ],
+      image: '/images/3eme annonce.jpeg', // À remplacer par le nom exact de l'image de Busala
+      registrationLink: '', // On laisse vide car il n'y a pas de formulaire d'inscription
+      youtubeLink: 'https://m.youtube.com/@info.busalacentre' // Le lien vers leur chaîne
     }
    // {
       //id: 2,
@@ -221,6 +257,20 @@ export default function Announcements() {
         <span className="font-bold text-base">قناة التيليجرام للمشروع</span>
       </a>
     )}
+    {/* AJOUTE CE BLOC ICI POUR LE WHATSAPP */}
+          {activity.whatsappLink && (
+            <a 
+              href={activity.whatsappLink}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="flex items-center gap-3 p-3 mt-4 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition-colors border border-green-100 group w-full"
+            >
+              <div className="bg-green-600 text-white p-1.5 rounded-full group-hover:scale-110 transition-transform">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+              </div>
+              <span className="font-bold text-base">تواصل معنا عبر الواتساب</span>
+            </a>
+          )}
   </div>
 
   {/* Bouton d'inscription principal */}
@@ -234,11 +284,23 @@ export default function Announcements() {
       التسجيل في النشاط
     </a>
   )}
+  {/* Bouton YouTube principal */}
+        {activity.youtubeLink && (
+          <a 
+            href={activity.youtubeLink}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="block text-center w-full py-3 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition shadow-md"
+          >
+            اشترك في القناة
+          </a>
+        )}
 </div>
               </div>
             ))}
           </div>
         </section>
+       
 
         {/* Past Activities Slider */}
         <section>
