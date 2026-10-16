@@ -81,6 +81,24 @@ export default function Announcements() {
       image: '/images/3eme annonce.jpeg', // À remplacer par le nom exact de l'image de Busala
       registrationLink: '', // On laisse vide car il n'y a pas de formulaire d'inscription
       youtubeLink: 'https://m.youtube.com/@info.busalacentre' // Le lien vers leur chaîne
+    },
+    {
+      id: 5,
+      title: 'مفاتيح تربوية ونفسية لفهم وتعديل سلوك المراهق',
+      edition: '',
+      date: 'التسجيل مفتوح',
+      location: 'عن بعد',
+      description: 'رحلة تربوية تهدف إلى تمكين المربين من فهم عالم المراهق، واكتشاف دوافع سلوكه، والتعامل مع تحديات هذه المرحلة بوعي وحكمة. لأن أبناءنا أمانة، ولأن التربية الواعية تبدأ بالفهم العميق.',
+      features: [
+        'فهم أعمق لطبيعة المراهقة وتحولاتها النفسية',
+        'اكتشاف ما وراء السلوك من دوافع واحتياجات',
+        'امتلاك أدوات عملية لتعديل السلوك وتعزيز الإيجابي',
+        'مهارات التعامل مع الغضب والعناد والانفعال',
+        'بناء علاقة تربوية قائمة على الثقة والحوار',
+        'ورشات تطبيقية وأدوات تربوية قابلة للتطبيق'
+      ],
+      image: '/images/4 eme annonce.jpeg',
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe0UVzJZENsLmD-toysLeIqEC3PEckjYHUAzzQzjsO6jocAMg/viewform?usp=preview'
     }
    // {
       //id: 2,
