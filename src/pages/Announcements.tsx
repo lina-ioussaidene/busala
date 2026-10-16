@@ -65,11 +65,11 @@ export default function Announcements() {
       whatsappLink: 'https://wa.me/message/QXIAB7C2H5XUA1' // J'ai remplacé telegramLink par whatsappLink car c'est ce qu'elle a fourni
     },
     {
-      id: 4, 
+      id: 4,
       title: 'رحلة إيمانية مع أسماء الله الحسنى',
       edition: '', // Pas d'édition
       date: 'قريباً...', // Date non définie, c'est un teasing
-      location: 'على قناة اليوتيوب', 
+      location: 'على قناة اليوتيوب',
       description: 'رحلة إيمانية جديدة نعيش فيها مع أسماء الله الحسنى، نتعرّف عليها، ونتعبّد الله بها، ونستلهم أثرها في حياتنا اليومية لاكتشاف كيف تصنع معانيها إنساناً رسالياً يحمل الخير لنفسه وأمته.',
       features: [
         'التعرف العميق على أسماء الله الحسنى ومعانيها',
@@ -83,47 +83,47 @@ export default function Announcements() {
       youtubeLink: 'https://m.youtube.com/@info.busalacentre' // Le lien vers leur chaîne
     },
     {
-      id: 5,
-      title: 'مفاتيح تربوية ونفسية لفهم وتعديل سلوك المراهق',
+      id: 5, // J'ai mis 4, décale l'annonce Asmaa Allah à id: 5
+      title: 'دورة: مفاتيح تربوية ونفسية لسلوك المراهق',
       edition: '',
       date: 'التسجيل مفتوح',
-      location: 'عن بعد',
-      description: 'رحلة تربوية تهدف إلى تمكين المربين من فهم عالم المراهق، واكتشاف دوافع سلوكه، والتعامل مع تحديات هذه المرحلة بوعي وحكمة. لأن أبناءنا أمانة، ولأن التربية الواعية تبدأ بالفهم العميق.',
+      location: 'بالتنسيق مع أكاديمية النور',
+      description: 'رحلة تربوية لتمكين المربين والأولياء من فهم عالم المراهق، اكتشاف دوافع سلوكه، والتعامل مع تحديات هذه المرحلة بوعي لبناء علاقة قائمة على الثقة.',
       features: [
-        'فهم أعمق لطبيعة المراهقة وتحولاتها النفسية',
-        'اكتشاف ما وراء السلوك من دوافع واحتياجات',
-        'امتلاك أدوات عملية لتعديل السلوك وتعزيز الإيجابي',
-        'مهارات التعامل مع الغضب والعناد والانفعال',
-        'بناء علاقة تربوية قائمة على الثقة والحوار',
-        'ورشات تطبيقية وأدوات تربوية قابلة للتطبيق'
+        'فهم طبيعة المراهقة وتحولاتها النفسية',
+        'اكتشاف الدوافع والاحتياجات وراء السلوك',
+        'أدوات عملية لتعديل السلوك وتعزيز الإيجابي',
+        'مهارات التعامل مع الغضب والعناد',
+        'ورشات تطبيقية لتربية أكثر وعياً'
       ],
-      image: '/images/4 eme annonce.jpeg',
-      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe0UVzJZENsLmD-toysLeIqEC3PEckjYHUAzzQzjsO6jocAMg/viewform?usp=preview'
-    }
-   // {
-      //id: 2,
-      //title: 'ورشة تطوير الذات',
-      //date: '20 مايو 2026',
-     // time: '14:00',
-     // location: 'مركز التدريب',
-     // description: 'ورشة عملية في تطوير المهارات الشخصية والمهنية للشباب',
-      //image: 'https://images.unsplash.com/photo-1515378791036-bafc5e651e69?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+      image: '/images/4 eme annonce.jpeg', // Le nom de l'image que tu vas ajouter dans le dossier public
+      registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe0UVzJZENsLmD-toysLeIqEC3PEckjYHUAzzQzjsO6jocAMg/viewform?usp=preview',
+      whatsappLink: '' // Pas de WhatsApp mentionné dans son texte pour cette annonce
+    },
+    // {
+    //id: 2,
+    //title: 'ورشة تطوير الذات',
+    //date: '20 مايو 2026',
+    // time: '14:00',
+    // location: 'مركز التدريب',
+    // description: 'ورشة عملية في تطوير المهارات الشخصية والمهنية للشباب',
+    //image: 'https://images.unsplash.com/photo-1515378791036-bafc5e651e69?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     //},
     //{
-     // id: 3,
-     // title: 'مخيم صيفي للشباب',
-     // date: '1-3 يونيو 2026',
-     // time: 'مخيم داخلي',
-     // location: 'مخيمات الجبل',
-     // description: 'مخيم تربوي وثقافي لتطوير شخصية الشباب وبناء القيم',
-     // image: ''
-   // }
+    // id: 3,
+    // title: 'مخيم صيفي للشباب',
+    // date: '1-3 يونيو 2026',
+    // time: 'مخيم داخلي',
+    // location: 'مخيمات الجبل',
+    // description: 'مخيم تربوي وثقافي لتطوير شخصية الشباب وبناء القيم',
+    // image: ''
+    // }
   ];
 
   // Past activities
   const pastActivities = [
     {
-      id: 1 ,
+      id: 1,
       image: '/images/1778874441158.jpg'
     },
     {
@@ -143,7 +143,7 @@ export default function Announcements() {
       image: '/images/1778874441215.jpg'
     },
     {
-      id: 6, 
+      id: 6,
       image: '/images/1778874441224.jpg'
     },
     {
@@ -197,10 +197,10 @@ export default function Announcements() {
       <div className="bg-primary-800 text-white pt-28 pb-8">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-4xl md:text-5xl font-bold mb-4 text-white">الإعلانات</h1>
-          
+
         </div>
       </div>
-      
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 flex-grow">
         {/* Upcoming Activities */}
         <section className="mb-16">
@@ -213,9 +213,9 @@ export default function Announcements() {
             {upcomingActivities.map((activity) => (
               <div key={activity.id} className="bg-white rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
                 <div className="relative h-[450px] bg-gray-50 p-4 border-b border-gray-100 flex items-center justify-center">
-                  <img 
-                    src={activity.image} 
-                    alt={activity.title} 
+                  <img
+                    src={activity.image}
+                    alt={activity.title}
                     className="max-w-full max-h-full object-contain drop-shadow-md rounded-md"
                   />
                   <div className="absolute top-4 right-4 bg-primary-800 text-white px-3 py-1 rounded-full text-sm font-bold">
@@ -223,102 +223,102 @@ export default function Announcements() {
                   </div>
                 </div>
                 <div className="p-6">
-  {/* Titre en Grenat (primary-800) */}
-  <h3 className="text-xl font-bold text-primary-800 mb-3">{activity.title}</h3>
-                 {/* Édition avec une autre police, en grenat et plus grande */}
-  {activity.edition && (
-    <span className="block text-base font-semibold text-primary-800 font-serif mb-3 tracking-wide">
-      {activity.edition}
-    </span>
-  )}
-  
-  <p className="text-gray-600 mb-4 text-sm leading-relaxed">{activity.description}</p>
-  
-  {/* Liste des caractéristiques (Features) */}
-  {activity.features && (
-    <div className="mb-6 bg-gray-50 p-3 rounded-lg border-r-4 border-primary-300">
-      <h4 className="font-bold text-primary-800 text-sm mb-2">مميزات المخيم :</h4>
-      <ul className="space-y-1">
-        {activity.features.map((feature, idx) => (
-          <li key={idx} className="text-xs text-gray-700 flex items-start gap-2">
-            <span className="text-primary-800">•</span>
-            {feature}
-          </li>
-        ))}
-      </ul>
-    </div>
-  )}
+                  {/* Titre en Grenat (primary-800) */}
+                  <h3 className="text-xl font-bold text-primary-800 mb-3">{activity.title}</h3>
+                  {/* Édition avec une autre police, en grenat et plus grande */}
+                  {activity.edition && (
+                    <span className="block text-base font-semibold text-primary-800 font-serif mb-3 tracking-wide">
+                      {activity.edition}
+                    </span>
+                  )}
 
-  {/* Informations, Date, Lieu et Telegram */}
-  <div className="space-y-3 text-sm text-gray-500 mb-6">
-    <div className="flex items-center gap-2">
-      <Calendar size={16} className="text-primary-800" />
-      <span>{activity.date}</span>
-    </div>
-    
-    <div className="flex items-center gap-2">
-      <MapPin size={16} className="text-primary-800" />
-      <span>{activity.location}</span>
-    </div>
+                  <p className="text-gray-600 mb-4 text-sm leading-relaxed">{activity.description}</p>
 
-       {/* Lien Telegram Large avec Icone */}
-    {activity.telegramLink && (
-      <a 
-        href={activity.telegramLink}
-        target="_blank"
-        rel="noopener noreferrer"
-        className="flex items-center gap-3 p-3 mt-4 bg-primary-50 text-primary-800 rounded-lg hover:bg-primary-100 transition-colors border border-primary-100 group w-full"
-      >
-        <div className="bg-primary-800 text-white p-1.5 rounded-full group-hover:scale-110 transition-transform">
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
-        </div>
-        <span className="font-bold text-base">قناة التيليجرام للمشروع</span>
-      </a>
-    )}
-    {/* AJOUTE CE BLOC ICI POUR LE WHATSAPP */}
-          {activity.whatsappLink && (
-            <a 
-              href={activity.whatsappLink}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="flex items-center gap-3 p-3 mt-4 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition-colors border border-green-100 group w-full"
-            >
-              <div className="bg-green-600 text-white p-1.5 rounded-full group-hover:scale-110 transition-transform">
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
-              </div>
-              <span className="font-bold text-base">تواصل معنا عبر الواتساب</span>
-            </a>
-          )}
-  </div>
+                  {/* Liste des caractéristiques (Features) */}
+                  {activity.features && (
+                    <div className="mb-6 bg-gray-50 p-3 rounded-lg border-r-4 border-primary-300">
+                      <h4 className="font-bold text-primary-800 text-sm mb-2">مميزات النشاط:</h4>
+                      <ul className="space-y-1">
+                        {activity.features.map((feature, idx) => (
+                          <li key={idx} className="text-xs text-gray-700 flex items-start gap-2">
+                            <span className="text-primary-800">•</span>
+                            {feature}
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
 
-  {/* Bouton d'inscription principal */}
-  {activity.registrationLink && (
-    <a 
-      href={activity.registrationLink}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="block text-center w-full py-3 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition shadow-md"
-    >
-      التسجيل في النشاط
-    </a>
-  )}
-  {/* Bouton YouTube principal */}
-        {activity.youtubeLink && (
-          <a 
-            href={activity.youtubeLink}
-            target="_blank"
-            rel="noopener noreferrer"
-            className="block text-center w-full py-3 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition shadow-md"
-          >
-            اشترك في القناة
-          </a>
-        )}
-</div>
+                  {/* Informations, Date, Lieu et Telegram */}
+                  <div className="space-y-3 text-sm text-gray-500 mb-6">
+                    <div className="flex items-center gap-2">
+                      <Calendar size={16} className="text-primary-800" />
+                      <span>{activity.date}</span>
+                    </div>
+
+                    <div className="flex items-center gap-2">
+                      <MapPin size={16} className="text-primary-800" />
+                      <span>{activity.location}</span>
+                    </div>
+
+                    {/* Lien Telegram Large avec Icone */}
+                    {activity.telegramLink && (
+                      <a
+                        href={activity.telegramLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-3 p-3 mt-4 bg-primary-50 text-primary-800 rounded-lg hover:bg-primary-100 transition-colors border border-primary-100 group w-full"
+                      >
+                        <div className="bg-primary-800 text-white p-1.5 rounded-full group-hover:scale-110 transition-transform">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+                        </div>
+                        <span className="font-bold text-base">قناة التيليجرام للمشروع</span>
+                      </a>
+                    )}
+                    {/* AJOUTE CE BLOC ICI POUR LE WHATSAPP */}
+                    {activity.whatsappLink && (
+                      <a
+                        href={activity.whatsappLink}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="flex items-center gap-3 p-3 mt-4 bg-green-50 text-green-700 rounded-lg hover:bg-green-100 transition-colors border border-green-100 group w-full"
+                      >
+                        <div className="bg-green-600 text-white p-1.5 rounded-full group-hover:scale-110 transition-transform">
+                          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+                        </div>
+                        <span className="font-bold text-base">تواصل معنا عبر الواتساب</span>
+                      </a>
+                    )}
+                  </div>
+
+                  {/* Bouton d'inscription principal */}
+                  {activity.registrationLink && (
+                    <a
+                      href={activity.registrationLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-center w-full py-3 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition shadow-md"
+                    >
+                      التسجيل في النشاط
+                    </a>
+                  )}
+                  {/* Bouton YouTube principal */}
+                  {activity.youtubeLink && (
+                    <a
+                      href={activity.youtubeLink}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="block text-center w-full py-3 bg-primary-800 text-white rounded-lg font-bold hover:bg-primary-900 transition shadow-md"
+                    >
+                      اشترك في القناة
+                    </a>
+                  )}
+                </div>
               </div>
             ))}
           </div>
         </section>
-       
+
 
         {/* Past Activities Slider */}
         <section>
@@ -372,9 +372,8 @@ export default function Announcements() {
                     setCurrentSlide(index);
                     scrollToSlide(index);
                   }}
-                  className={`w-3 h-3 rounded-full transition ${
-                    currentSlide === index ? 'bg-primary-800' : 'bg-gray-300'
-                  }`}
+                  className={`w-3 h-3 rounded-full transition ${currentSlide === index ? 'bg-primary-800' : 'bg-gray-300'
+                    }`}
                 />
               ))}
             </div>
