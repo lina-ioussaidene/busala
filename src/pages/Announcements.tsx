@@ -100,6 +100,40 @@ export default function Announcements() {
       registrationLink: 'https://docs.google.com/forms/d/e/1FAIpQLSe0UVzJZENsLmD-toysLeIqEC3PEckjYHUAzzQzjsO6jocAMg/viewform?usp=preview',
       whatsappLink: '' // Pas de WhatsApp mentionné dans son texte pour cette annonce
     },
+    {
+      id: 6, // Ajuste cet ID selon sa position (ex: 2 pour le 1er épisode, 3 pour le 2ème)
+      title: 'بودكاست رسالي | الموسم الأول',
+      edition: 'الحلقة 01',
+      date: 'متوفر الآن على يوتيوب',
+      location: 'قناة مركز بوصلة',
+      description: 'من أين تبدأ صناعة الإنسان؟ حلقة حوارية عميقة تناقش دور الأسرة باعتبارها المهد الأول للرسالية وبناء الأجيال.',
+      features: [
+        'نقاش حول صناعة الإنسان والتربية الرسالية',
+        'الأسرة كالمهد الأول لبناء القيم',
+        'ضيف الحلقة: أ.د صحراوي خلواتي',
+        'إعداد وتقديم: الأستاذة قيراد دليلة'
+      ],
+      image: '/images/podcast.jpeg', // Assure-toi que l'image est bien dans ton dossier public/images/ avec ce nom
+      registrationLink: '',
+      youtubeLink: 'https://youtu.be/Amr1A0es4ro?si=0ZHjjzOVEuiUOCW1'
+    },
+    {
+      id: 7, // Tu décaleras les ID suivants (3, 4, 5, 6)
+      title: 'بودكاست رسالي | الموسم الأول',
+      edition: 'الحلقة 02',
+      date: 'متوفر الآن على يوتيوب',
+      location: 'قناة مركز بوصلة',
+      description: 'مساحة حوار وتأمل تبحث فيها عن الإنسان، والرسالة، والأثر. لمن تعيش؟ وما هو محور الحياة الرسالية؟',
+      features: [
+        'نقاشات عميقة حول العبودية ومحور الحياة الرسالية',
+        'مساحة للتأمل في رسالة الإنسان وأثره',
+        'إعداد وتقديم: الأستاذة قيراد دليلة',
+        'حلقات مرئية وصوتية ممتعة'
+      ],
+      image: '/images/podcast.jpeg', // Vérifie bien le nom du fichier que tu vas mettre dans le dossier public/images/
+      registrationLink: '',
+      youtubeLink: 'https://youtu.be/-wG22NkQH38?si=ZlqGdVYc2qtut9DH' // Le lien exact de la capture d'écran
+    },
     // {
     //id: 2,
     //title: 'ورشة تطوير الذات',
